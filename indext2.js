@@ -58,7 +58,7 @@ function getMealById(mealID) {
     }
     single_mealEl.innerHTML = `
     <div class="single-meal">
-               <h1>Chorize & mozzarell</h1>
+               
                <h4>Ingredients</h4>
           <ul>
               ${ingredients.map((ing) => `<li>${ing}</li>`).join("")}
